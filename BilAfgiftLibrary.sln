@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilAfgiftLibrary", "BilAfgiftLibrary\BilAfgiftLibrary.csproj", "{E37F6A1B-548B-4D2D-88E6-A8866E7C1E2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilAfgiftTest", "BilAfgiftTest\BilAfgiftTest.csproj", "{B607020B-05BC-46E5-B01A-DFA39E564483}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E37F6A1B-548B-4D2D-88E6-A8866E7C1E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E37F6A1B-548B-4D2D-88E6-A8866E7C1E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E37F6A1B-548B-4D2D-88E6-A8866E7C1E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B607020B-05BC-46E5-B01A-DFA39E564483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B607020B-05BC-46E5-B01A-DFA39E564483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B607020B-05BC-46E5-B01A-DFA39E564483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B607020B-05BC-46E5-B01A-DFA39E564483}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
