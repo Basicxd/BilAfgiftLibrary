@@ -10,7 +10,7 @@ namespace BilAfgiftLibrary
         /// Når Prisen er større end 200000 kr så er det 150% af prisen.
         /// </summary>
         /// <param name="pris"></param>
-        /// <returns></returns>
+        /// <returns>Returnende bilens registreringsafgift:</returns>
         public double BilAfgift(int pris)
         {
             if (pris > 200000)
@@ -23,6 +23,12 @@ namespace BilAfgiftLibrary
             }
         }
 
+        /// <summary>
+        /// Afgiften beregnes først som for en personbil.
+        /// Men af denne beregnede afgift skal kun betales 20 %.
+        /// </summary>
+        /// <param name="pris"></param>
+        /// <returns>Returnende bilens registreringsafgift med rabat på 20%</returns>
         public double ElBilAfgift(int pris)
         {
             return BilAfgift(pris) * 0.2;

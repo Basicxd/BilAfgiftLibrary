@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilAfgiftLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:BilAfgiftLibrary.Afgift.BilAfgift(System.Int32)">
+            <summary>
+            Beregner bilens registreringsafgift:
+            Når Prisen er mindre end eller lig med 200000 kr så er det 85% af prisen.
+            Når Prisen er større end 200000 kr så er det 150% af prisen.
+            </summary>
+            <param name="pris"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
