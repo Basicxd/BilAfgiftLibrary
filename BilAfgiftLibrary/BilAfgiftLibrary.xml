@@ -11,7 +11,15 @@
             Når Prisen er større end 200000 kr så er det 150% af prisen.
             </summary>
             <param name="pris"></param>
-            <returns></returns>
+            <returns>Returnende bilens registreringsafgift:</returns>
+        </member>
+        <member name="M:BilAfgiftLibrary.Afgift.ElBilAfgift(System.Int32)">
+            <summary>
+            Afgiften beregnes først som for en personbil.
+            Men af denne beregnede afgift skal kun betales 20 %.
+            </summary>
+            <param name="pris"></param>
+            <returns>Returnende bilens registreringsafgift med rabat på 20%</returns>
         </member>
     </members>
 </doc>
